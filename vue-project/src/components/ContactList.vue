@@ -9,7 +9,7 @@ import contacts from '../data.js'
       <input type="text" v-model="search">
     </div>
     <ul>
-      <li v-for="contact in orderedContacts" :key="contact.id">
+      <li v-for="contact in contacts" :key="contact.id">
         <router-link :to="'/contact/' + contact.id">{{ contact.firstName }} {{contact.lastName}}</router-link>
       </li>
     </ul>
