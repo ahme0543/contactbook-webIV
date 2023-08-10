@@ -40,7 +40,7 @@ export default {
 
   methods: {
     createContact() {
-      // Implement logic to create a new contact and save it to local storage
+      
 
       const newId = this.contacts.length
       this.contacts.push({...this.newContact, id: newId})

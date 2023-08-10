@@ -40,7 +40,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ff64fa;
+  border-color: #4829ab;
 }
 button:focus,
 button:focus-visible {
@@ -60,20 +60,18 @@ button:focus-visible {
 
 a {
   font-weight: 500;
-  color: #ff64fa;
+  color: #1e1eab;
   text-decoration: inherit;
 }
-a:hover {
-  color: #cc47ce;
-}
+
 
 a {
   font-weight: 500;
-  color: #ff64fa;
+  color: #445ab4;
   text-decoration: inherit;
 }
 a:hover {
-  color:#cc47ce;
+  color:#5031cc;
 }
 
 
@@ -82,9 +80,7 @@ a:hover {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
-    color: #fd74ff;
-  }
+  
   button {
     background-color: #f9f9f9;
   }

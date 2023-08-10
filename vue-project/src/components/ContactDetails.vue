@@ -36,7 +36,7 @@ export default {
 
   methods: {
   deleteContact() {
-      // Implement logic to delete the contact and navigate back to the contact list
+    
 
       localStorage.setItem('contacts', JSON.stringify(this.contacts.filter(contact => contact.id != this.id)))
       contacts.filter(contact => contact.id != this.id)
